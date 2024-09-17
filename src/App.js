@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import MyButton from './components/MyButton';
+import AboutPage from './components/AboutPage';
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
           Selamat datang di aplikasi saya
         </p>
         <MyButton/>
+        <AboutPage/>
+        <Profile/>
       </header>
     </div>
   );
