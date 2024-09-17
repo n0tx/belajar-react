@@ -3,6 +3,7 @@ import './App.css';
 import MyButton from './components/MyButton';
 import AboutPage from './components/AboutPage';
 import Profile from './components/Profile';
+import ListVegetables from './components/ListVegetables';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <MyButton/>
         <AboutPage/>
         <Profile/>
+        <ListVegetables/>
       </header>
     </div>
   );
