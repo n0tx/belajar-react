@@ -14,6 +14,7 @@ function App() {
           Selamat datang di aplikasi saya
         </p>
         <MyButton/>
+        <MyButton/>
         <AboutPage/>
         <Profile/>
         <ListVegetables/>

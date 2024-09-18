@@ -1,9 +1,17 @@
+import { useState } from "react";
+
 function MyButton() {
+
+    const [hitunganKlik, setHitunganKlik] = useState(0);
+
     function handleClick() {
-        alert('Klik tombol oke!');
+        setHitunganKlik(hitunganKlik + 1);
+        alert('Klik tombol oke!, ' + (hitunganKlik + 1) + ' kali diklik');
     }
     return (
-        <button onClick={handleClick}>Saya adalah tombol | Klik saya</button>
+        <button onClick={handleClick}>
+            Saya adalah tombol | Klik saya, diklik {hitunganKlik} kali
+        </button>
     );
 }
 export default MyButton;
